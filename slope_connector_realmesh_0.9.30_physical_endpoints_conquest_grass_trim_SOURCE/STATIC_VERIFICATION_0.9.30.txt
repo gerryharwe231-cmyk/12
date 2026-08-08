@@ -1,0 +1,23 @@
+0.9.30 Physical Endpoints / Conquest Grass Trim — local verification
+
+Passed locally:
+- all 0.9.23 panel/geometry parity regressions
+- all 0.9.25/0.9.26/0.9.27 topology/orientation/Conquest regressions
+- all 0.9.28 stair/slab/tiled-width regressions
+- all 0.9.29 performance/degenerate-arc regressions
+- physical endpoint companion placement regression
+- endpoint grid NBT + replaced-state restore regression
+- physical collision / outline holder regression
+- native/custom endpoint internal face culling regression
+- endpoint root removal companion cleanup regression
+- endpoint BakedQuad source cache regression
+- Conquest decorated-grass multipart resource audit
+- Conquest ArcTrim directional-body-only renderer regression
+- Conquest sprite/tint preservation regression
+- Conquest trim mesh renderRevision cache regression
+- JSON resource checks
+- bundled jar API checks
+- Java parser-level syntax checks
+
+Environment limitation:
+The current container cannot resolve external Gradle/Minecraft dependencies, so final Fabric Loom `clean build` still needs the included Actions workflow or another complete Fabric development environment.
